@@ -1,0 +1,28 @@
+motherboard: 
+
+-missing designator on 0805 resistor (R11)
+-polarity symbols for power filter caps
+-adjust WIMA footprints for accuracy
+-move lower left cap away from edge
+-edit values for single instance on BOM
+-adjust VCO / PWM amplifiers to run off single rail
+-add feedback R in oscillator amplifier
+-dial in stopper R's and add values to schematic
+-check necessity for feedback R in PW circuit (R32)
+-check LFO HF instability (add stopper R to prevent short) - 2k2
+-add cap to remove VCO offset (VCO -> PW & BLEND)
+-add gain to blend amp to take advantage of full range
+-remove mod signal offsets, and add jumper for ext. A/C coupling
+-buffer exponential converter bias to decouple LFO drag
+
+-add rail + gnd test points
+-Neutrik footprint...
+
+controlboard:
+
+-adjust control directions
+-change LFO control to LIN
+
+frontpanel:
+
+-adjust hole diameters to fit pot shafts
